@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="project_listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regressiontesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.Createaccounttestcases">
+        <methods>
+          <include name="account_013"/>
+          <include name="account_012"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="testbefore"/>
+          <include name="testafter"/>
+        </methods>
+      </class> <!-- testcases.Createaccounttestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

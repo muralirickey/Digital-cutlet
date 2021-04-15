@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-02T16:03:41 IST" name="Suite" finished-at="2021-04-02T16:06:28 IST" duration-ms="166444">
+    <groups>
+      <group name="regressiontesting">
+        <method signature="Createaccounttestcases.account_012()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_012" class="testcases.Createaccounttestcases"/>
+        <method signature="Createaccounttestcases.account_0123()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_0123" class="testcases.Createaccounttestcases"/>
+        <method signature="Createaccounttestcases.account_013()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_013" class="testcases.Createaccounttestcases"/>
+      </group> <!-- regressiontesting -->
+      <group name="createaccount">
+        <method signature="Createaccounttestcases.account_012()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_012" class="testcases.Createaccounttestcases"/>
+        <method signature="Createaccounttestcases.account_0123()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_0123" class="testcases.Createaccounttestcases"/>
+        <method signature="Createaccounttestcases.account_013()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_013" class="testcases.Createaccounttestcases"/>
+      </group> <!-- createaccount -->
+      <group name="smoketesting ">
+        <method signature="Createaccounttestcases.account_012()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_012" class="testcases.Createaccounttestcases"/>
+        <method signature="Createaccounttestcases.account_0123()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" name="account_0123" class="testcases.Createaccounttestcases"/>
+      </group> <!-- smoketesting  -->
+    </groups>
+    <test started-at="2021-04-02T16:03:41 IST" name="Test" finished-at="2021-04-02T16:06:28 IST" duration-ms="166444">
+      <class name="testcases.Createaccounttestcases">
+        <test-method is-config="true" signature="testbefore()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:03:41 IST" name="testbefore" finished-at="2021-04-02T16:03:43 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefore -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:03:43 IST" name="beforeMethod" finished-at="2021-04-02T16:04:34 IST" duration-ms="51249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="account_012()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:04:34 IST" name="account_012" finished-at="2021-04-02T16:05:02 IST" duration-ms="28152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_012 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:05:02 IST" name="closeBrowser" finished-at="2021-04-02T16:05:05 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:05:05 IST" name="beforeMethod" finished-at="2021-04-02T16:05:22 IST" duration-ms="16325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="account_0123()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:05:22 IST" name="account_0123" finished-at="2021-04-02T16:05:44 IST" duration-ms="22670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_0123 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:05:44 IST" name="closeBrowser" finished-at="2021-04-02T16:05:46 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:05:46 IST" name="beforeMethod" finished-at="2021-04-02T16:06:02 IST" duration-ms="16109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="account_013()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:06:02 IST" name="account_013" finished-at="2021-04-02T16:06:26 IST" duration-ms="23361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_013 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:06:26 IST" name="closeBrowser" finished-at="2021-04-02T16:06:27 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="testafter()[pri:0, instance:testcases.Createaccounttestcases@505a9d7c]" started-at="2021-04-02T16:06:27 IST" name="testafter" finished-at="2021-04-02T16:06:28 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testafter -->
+      </class> <!-- testcases.Createaccounttestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
